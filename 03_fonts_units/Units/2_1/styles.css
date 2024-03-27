@@ -1,0 +1,41 @@
+ul {
+    padding-inline-start: 1.2em;
+}
+
+li {
+    font-size: 0.8em;
+    line-height: 1.5em;
+    list-style-type: none;
+}
+
+
+ul.dog li:before {
+    content: "\1F415"; 
+    margin-right: 0.5em;
+}
+
+ul.cat li:before {
+    content: "\1F408";
+    margin-right: 0.5em;
+}
+
+ul.parrot li:before {
+    content: "\1F99C"; 
+    margin-right: 0.5em;
+}
+
+ul.snake li:before {
+    content: "\1F40D"; 
+    margin-right: 0.5em;
+}
+
+ul.lizzard li:before {
+    content: "🦎 ";
+    margin-right: 0.5em;
+}
+
+section {
+    font-size: 1.2rem;
+    border: 2px solid black;
+    padding: 10px;
+}

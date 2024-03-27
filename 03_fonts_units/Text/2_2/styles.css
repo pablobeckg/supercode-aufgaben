@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: PressStart2P;
+    src: url(fonts/PressStart2P-Regular.ttf);
+}
+@font-face {
+    font-family: Pacifico;
+    src: url(fonts/Pacifico-Regular.ttf);
+}
+@font-face {
+    font-family: Fredoka;
+    src: url(fonts/Fredoka-VariableFont_wdth,wght.ttf);
+}
+@font-face {
+    font-family: Chelsea;
+    src: url(fonts/ChelseaMarket-Regular.ttf);
+}
+h1 {
+    font-family: PressStart2P;
+    background-color: rgb(51, 159, 51);
+    text-align: center;
+    margin: 20px 10px;
+    padding: 10px;
+}
+
+p {
+    font-family: Pacifico;
+}
+
+a {
+    font-family: Fredoka;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+em {
+    font-family: Chelsea;
+    text-shadow: 2px -2px red;
+}
+strong {
+    font-family: PressStart2P;
+    font-size: 6px;
+}

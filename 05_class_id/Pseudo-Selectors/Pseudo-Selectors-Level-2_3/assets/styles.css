@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+h1:hover {
+    color: aquamarine;
+    font-family: monospace;
+}
+
+.timeline {
+    background-color: aquamarine;
+}
+
+ul li {
+    font-style: italic;
+}
+
+#notitalic {
+    font-style: normal;
+}
+
+a:hover {
+    font-size: 1.3rem;
+}
+
+a:active {
+    color: red;
+}

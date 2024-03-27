@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Lato;
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(fonts/Lato-Regular.ttf);
+}
+
+main {
+    background-image: url(fotos/fondo.jpeg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    text-align: center;
+    
+}
+h1 {
+    font-size: 12rem;
+    padding-top: 12%;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+    font-style: italic;
+}
+
+h3 {
+    padding: 1%;
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+h4 {
+    color: rgba(255, 255, 255, 0.6);
+    padding-bottom: 5%;
+}
+
+#button {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}

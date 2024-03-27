@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(187, 195, 180);
+}
+
+h1 {
+    font-family: monospace;
+    text-align: center;
+    font-size: 10rem;
+    color: #353531;
+    font-weight: 700;
+    text-shadow: 4px 4px #EC4E20, 8px 8px #FF9505, 12px 12px #016FB9, 16px 16px #F2F3D9, 20px 20px #7CB518;
+}
