@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+html {
+    font-size: 62.5%;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+body {
+  font-size: 1.6rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+  display: inline-block;
+  font-weight: normal;
+}
+
+p {
+  display: inline-block;
+}
+
+div {
+  padding: 0.5rem;
+}
+
+section {
+  padding: 1rem;
+}
+
+input[type="submit"] {
+  padding: 0.2rem;
+}
+button {
+  padding: 0.2rem;
+}

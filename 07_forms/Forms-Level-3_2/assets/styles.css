@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-weight: normal;
+  color: white;
+}
+html {
+  font-size: 62.5%;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+form {
+  width: 200px;
+  margin: 10rem auto;
+  padding: 1rem;
+  background-color: rgb(3, 40, 57);
+}
+
+.container {
+  display: flex;
+}
+
+.button {
+  width: 50%;
+  height: 4rem;
+  background-color: transparent;
+  border: none;
+}
+
+.login {
+  background-color: lightgreen;
+}
+
+.sign:hover {
+  background-color: green;
+}
+
+h1 {
+  text-align: center;
+  padding: 2.5rem 0;
+  font-weight: bold;
+}
+
+
+input {
+  background-color: transparent;
+  width: 100%;
+  display: block;
+  margin: 1rem auto;
+}
+p {
+  padding: 1rem 0 0 0;
+  display: block;
+  text-align: right;
+}
+a {
+  color: green;
+}
+
+input[type=submit] {
+  background-color: lightgreen;
+  height: 4rem;
+  letter-spacing: 0.2rem;
+}
+
+/* 2te teil code */
+
+.login2:hover {
+  background-color: green;
+}
+
+.sign2 {
+  background-color: lightgreen;
+}
+
+input[type=text] {
+  margin: 0;
+  padding: 0;
+  width: 49%;
+  display: inline-block;
+}

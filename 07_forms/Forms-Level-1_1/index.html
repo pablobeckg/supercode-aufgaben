@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles.css">
+    <title>login</title>
+</head>
+
+<body>
+    <form action="">
+        <section>
+            <h3>Name</h3>
+            <div class="name">
+                <label for="name"></label>
+                <input type="text" name="mail" id="name" placeholder="Vorname" required>
+            </div>
+            <div class="nachname">
+                <label for="nachname"></label>
+                <input type="text" name="nachname" id="nachname" placeholder="Nachname" required>
+            </div>
+            <h3>Email</h3>
+            <div>
+                <label for="email"></label>
+                <input type="email" name="email" id="email"> 
+            </div>
+            <h3>Thema</h3>
+            <div>
+                <select name="thema" id="thema">
+                    <option value="advertise">Advertise</option>
+                    <option value="general">General</option>
+                    <option value="nachricht">Nachricht</option>
+                    <option value="partnership">Partnership</option>
+                </select>
+            </div>
+            <h3>Nachricht</h3>
+            <textarea name="nachricht" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="Submit">
+        </section>
+    </form>
+</body>
+
+</html>

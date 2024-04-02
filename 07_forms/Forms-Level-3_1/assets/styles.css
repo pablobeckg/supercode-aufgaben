@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-weight: normal;
+}
+html {
+  font-size: 62.5%;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+body {
+  width: 300px;
+  margin: 10rem auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 1px rgb(225, 224, 224);
+}
+
+header {
+  background-color: rgb(53, 151, 184);
+  height: 5rem;
+  color: rgb(255, 255, 255);
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 10px 10px 0 0;
+}
+
+h2 {
+  color: rgb(53, 151, 184);
+  display: inline-block;
+}
+
+.circle {
+  width: 1.5rem; /* Adjust size as needed */
+  height: 1.5rem; /* Adjust size as needed */
+  border-radius: 50%; /* Makes it a circle */
+  background-color: rgb(53, 151, 184); /* Blue background */
+  display: inline-block;
+  color: white; /* White text color */
+  text-align: center;
+  margin: 0 0.7rem 0 -6px;
+  
+}
+
+h4 {
+  color: gray;
+  margin: 0.4rem;
+}
+
+/* Sections */
+
+section {
+    padding: 1.5rem;
+    margin: 0.2rem 1.5rem;
+    background-color: rgb(249, 249, 249);
+    border-radius: 5px;
+  }
+ 
+
+ 
+input {
+  width: 100%;
+  height: 2rem;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+
+input[type=submit] {
+  background-color: rgb(53, 151, 184);
+  border: none;
+  color: white;
+  height:2.5rem;
+  display: inline-block;
+  width: 20%;
+  margin: 0 0 0 1.5rem;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.terms {
+padding: 1rem;
+}
+
+input[type=checkbox] {
+  display: inline-block;
+  height: 10px;
+  width: 7%;
+}
+
+label[for=terms] {
+  display: inline-block;
+}
+  

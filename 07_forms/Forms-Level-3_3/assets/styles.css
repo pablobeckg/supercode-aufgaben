@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-weight: normal;
+  color: white;
+}
+html {
+  font-size: 62.5%;
+  font-family: "poppins";
+  height: 100vh;
+  width: 100vw;
+}
+@font-face {
+  font-family: poppins;
+  src: url(assets/fonts/Poppins-Regular.ttf);
+}
+
+body {
+  background-image: url(../assets/images/ice.jpg);
+  background-size: cover;
+ 
+}
+
+form {
+  width: 400px;
+  height: 600px;
+  margin: 0 auto;
+  padding: 4rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  width: 20%;
+  height: 4rem;
+  border: none;
+  font-size: 1rem;
+}
+
+.login {
+  background-color: rgb(27, 101, 126);
+  border-radius: 2rem 0 0 2rem;
+}
+.register {
+  border-radius: 0 2rem 2rem 0;
+  background-image: linear-gradient(90deg, rgb(27, 101, 126), rgb(106, 162, 180) );
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0  6rem 0;
+}
+
+img {
+  margin: 0 1rem;
+}
+
+input {
+  width: 100%;
+  display: block;
+  margin: 1rem auto;
+  border: none;
+  border-bottom: 1px solid black;
+  margin: 2rem 0;
+}
+
+p {
+  padding: 1rem 0 0 0;
+  display: block;
+  text-align: right;
+}
+a {
+  color: green;
+}
+
+input[type=submit] {
+  border-radius: 2rem;
+  background-image: linear-gradient(90deg, rgb(27, 101, 126), rgb(106, 162, 180) );
+  height: 4rem;
+  border: none;
+  margin: 4rem 0;
+}
+
+label{
+  color: black;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-left: 0.5rem;
+}
+
+input[type=checkbox] {
+  width: 4%;
+  margin: 0;
+}
+
+.check {
+  display: flex;
+}
