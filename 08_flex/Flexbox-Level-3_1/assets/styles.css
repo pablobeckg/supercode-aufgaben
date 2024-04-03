@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: raleway;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: raleway;
+    src: url(./fonts/Raleway-VariableFont_wght.ttf);
+}
+
+body {
+    background-image: url(./fotos/fondo.jpeg);
+    background-size: cover;
+}
+
+header {
+    height: 76px;
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 40px;
+    align-items: center;
+    height: 76px;
+}
+
+nav a {
+    color: #666;
+}
+
+nav a:hover{
+    color: #333;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul a {
+    color: #666;
+}
+
+ul a:hover {
+    color: #337ab7;
+}
+
+main {
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+h1 {
+    margin: 2rem;
+    font-size: 3rem;
+}
+
+h5 {
+    margin: 1rem;
+}
+
+.btn {
+    width: 12rem;
+    height: 3rem;
+    color: white;
+}
+
+.one {
+    background-color: transparent;
+    border: 1px solid white;
+    font-weight: bold;
+}
+
+.two {
+    background-color: #745CF9;
+    border: none;
+}
+
+.one:hover {
+    color: black;
+    background-color: #745CF9;
+    border: none;
+}
+
+.two:hover {
+    background-color: #624fce;
+}
