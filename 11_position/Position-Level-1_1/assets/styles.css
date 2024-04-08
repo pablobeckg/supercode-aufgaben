@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(./fonts/Poppins-Medium.ttf);
+}
+
+:root {
+    --main-font: poppins;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: var(--main-font);
+}
+
+body {
+    height: 100vh;
+    background-image: url(./fotos/everest.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.text {
+    display: inline-block;
+    position: absolute;
+    right: 20%;
+    top:20%
+}
+
+body h1 {
+    font-size: 5rem;
+}
+
+body h3 {
+    font-size: 3rem;
+    text-align: right;
+    
+}

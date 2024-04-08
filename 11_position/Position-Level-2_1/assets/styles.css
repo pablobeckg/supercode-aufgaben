@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(./fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: playfair;
+    src: url(./fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+:root {
+    --main-font: playfair;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: var(--main-font);
+}
+
+body {
+    background-color: rgb(238, 239, 227);
+    height: 100vh;
+    background-image: url(./fotos/background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    color: rgb(38, 31, 55);
+}
+
+.hero {
+    display: inline-block;
+    position: absolute;
+    left: 10%;
+    top:20%
+}
+
+.hero h1 {
+    font-size: 4.8rem;
+}
+
+.hero h1 span {
+    font-size: 3.2rem;
+}
+
+.hero h3 {
+    font-size: 1.5rem;
+    text-align: left;
+    font-weight: 400;
+    margin-top: 1.36rem;
+}
+
+.hero button {
+    height: 5.38rem;
+    width: 25rem;
+    border: none;
+    background-color: rgb(243, 175, 64);
+    margin-top: 4.2rem;
+    border-radius: 2rem;
+    font-size: 1.76rem;
+}

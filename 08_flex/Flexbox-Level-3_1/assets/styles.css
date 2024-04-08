@@ -11,10 +11,7 @@
     src: url(./fonts/Raleway-VariableFont_wght.ttf);
 }
 
-body {
-    background-image: url(./fotos/fondo.jpeg);
-    background-size: cover;
-}
+
 
 header {
     height: 76px;
@@ -56,7 +53,9 @@ ul a:hover {
 }
 
 main {
-    height: 88vh;
+    background-image: url(./fotos/fondo.jpeg);
+    background-size: cover;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
