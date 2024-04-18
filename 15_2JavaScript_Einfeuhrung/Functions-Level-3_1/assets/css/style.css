@@ -1,0 +1,32 @@
+h1 {
+   text-align: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+div {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+}
+
+#ball-1 {
+    background: linear-gradient(45deg, blue 50%, red 50%);
+}
+#ball-2 {
+    background: linear-gradient(45deg, orange 50%, black 50%);
+}
+#ball-3 {
+    background: linear-gradient(45deg, pink 50%, yellow 50%);
+}
+#ball-4 {
+    background: linear-gradient(45deg, brown 50%, gray 50%);
+}
