@@ -1,0 +1,16 @@
+
+body {
+    transition: 0.4s;
+}
+
+.good {
+    background-color: green;
+}
+
+.moderate {
+    background-color: yellow;
+}
+
+.bad {
+    background-color: red;
+}
