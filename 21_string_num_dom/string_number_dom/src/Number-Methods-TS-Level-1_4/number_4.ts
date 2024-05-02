@@ -1,0 +1,28 @@
+let x = "999";
+let y = Number(x);
+console.log(y);
+x = "15.16698";
+y = Number(x);
+console.log(y);
+x = "7.78714";
+y = Number(x);
+console.log(y);
+x = "12.3";
+y = Number(x);
+console.log(y);
+x = "3.14random";
+y = Number(x);
+console.log(y);
+x = "true";
+y = Number(x);
+console.log(y);
+x = "false";
+y = Number(x);
+console.log(y);
+x = "321";
+y = Number(x);
+console.log(y);
+x = "Supercode";
+y = Number(x);
+console.log(y);
+
