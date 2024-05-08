@@ -32,16 +32,6 @@ function printPretty() {
     console.log(toDoItems.join(' ** '));
 }
 
-function addFive() {
-    for (let i = 0; i < 5; i++) {
-        let newItem = window.prompt('Add a to-do item (separated by comma)');
-        if (newItem !== null) {
-            toDoItems.push(newItem);
-        }
-    }
-}
-
-
 addItem('Hola', true)
 addItem('chau', true)
 addItem('chau', true)
