@@ -3,31 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="project.css" />
-    <title>Project</title>
+    <link rel="stylesheet" href="./assets/project.css" />
+    <title>Teams Counter</title>
   </head>
   <body>
-    <main>
-      <section class="wrap-one">
-        <h1 class="score-one">0</h1>
-        <h2>Home</h2>
-        <div class="btn-container">
-            <button class="bttn-one left">+1</button>
-            <button class="bttn-two left">+2</button>
-            <button class="bttn-three left">+3</button>
-        </div>    
-      </section>
-      <section class="wrap-two">
-        <h1 class="score-two">0</h1>
-        <h2>Visitor</h2>
-        <div class="btn-container">
-            <button class="bttn-one right">+1</button>
-            <button class="bttn-two right">+2</button>
-            <button class="bttn-three right">+3</button>
-        </div> 
-      </section>
-      <button class="reset">Reset</button>
-      <script type="module" src="./project.html"></script>
-    </main>
+    <h1>Game Score</h1>
+    <div class="teams">
+      <h3 id="team1">Team One</h3>
+      <h3 id="team2">Team Two</h3>
+    </div>
+
+    <div class="results">
+      <div id="resultFieldHome">
+        <fieldset>
+          <h2 class="result" id="home">0</h2>
+          <legend>Home</legend>
+        </fieldset>
+      </div>
+      <div id="resultFieldAway">
+        <fieldset>
+          <h2 class="result" id="away">0</h2>
+          <legend>Away</legend>
+        </fieldset>
+      </div>
+    </div>
+    
+    <div class="btns">
+      <div class="column1">
+        <button id="button1">+1</button>
+        <button id="button2">+2</button>
+        <button id="button3">+3</button>
+      </div>
+      <div class="column2">
+        <button id="button4">+1</button
+        ><button id="button5">+2</button
+        ><button id="button6">+3</button>
+      </div>
+    </div>
+    <div class="reset">
+      <button id="reset">Reset</button>
+    </div>
+
+    <script type="module" src="./project.ts"></script>
   </body>
 </html>

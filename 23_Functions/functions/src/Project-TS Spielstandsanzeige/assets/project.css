@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    background-color: black;
+    color: white;
+    font-family: 'orbitron';
+  }
+
+  @font-face {
+    font-family: 'orbitron';
+    src: url(./fonts/Orbitron-VariableFont_wght.ttf);
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  .teams, .results, .btns {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 18rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  .result {
+    height: 20vh;
+    width: 13vw;
+    background-color: orange;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h2{ 
+    font-size: 8rem;
+  }
+
+  fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2em;
+    border-radius: 2rem;
+    border: 2px solid red;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+  
+  legend {
+    margin-bottom: 1em;
+  }
+  
+  button {
+    height: 50px;
+    width: 50px;
+    margin: 0 5px;
+    background-color: purple;
+    color: white;
+    border-radius: 0.5rem;
+    border: none;
+  }
+  
+  .column2 button {
+    background-color: blue;
+  }
+  
+  .column2 {
+    margin-left: 2.5rem;
+  }
+  
+  .reset {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .reset button {
+    background-color: green;
+    width: 6rem;
+  }
+  
