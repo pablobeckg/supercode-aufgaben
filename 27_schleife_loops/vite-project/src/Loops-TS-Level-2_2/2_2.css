@@ -1,0 +1,8 @@
+form, button {
+    display: inline-block;
+}
+
+p {
+    font-size: 2rem;
+    color: greenyellow;
+}
