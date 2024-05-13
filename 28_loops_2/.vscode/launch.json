@@ -12,7 +12,7 @@
         "webRoot": "${workspaceFolder}",
         "sourceMaps": true,
         "resolveSourceMapLocations": [
-            "${workspaceFolder}/**/**/**/**",
+            "${workspaceFolder}/**/**/**",
             "!**/node_modules/**"
         ],
       },

@@ -12,3 +12,5 @@ if (numInput && bttn && text) {
         }
     });
 }
+
+console.log('hola')
